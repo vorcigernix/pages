@@ -46,11 +46,6 @@
       padding: 2em 5em;
     }
 
-    .cards > ul > li:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-      color: white;
-    }
-
     .cards > ul {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -62,6 +57,16 @@
       border: 1px solid #666666;
       padding: 2em;
       transition: all 0.5s;
+      margin-left: 30px;
+    }
+
+    .cards > ul > li:hover {
+      margin: 0;
+      border: 1px solid #fff;
+      background-color: #fff;
+    }
+    .cards > ul > li:hover a {
+      text-decoration: underline;
     }
   }
 </style>
