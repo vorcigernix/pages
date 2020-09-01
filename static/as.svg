@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="as.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 79.375 79.375"
+   height="300"
+   width="300">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="133.75"
+     inkscape:cx="149.0625"
+     inkscape:zoom="2"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(1.9808753,0,0,1.9808753,-16.312632,-33.33283)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="text835"
+       aria-label="AS">
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         id="path837"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Montserrat;-inkscape-font-specification:Montserrat;fill:#000000;stroke-width:0.264583"
+         d="m 41.169398,54.642658 h 3.9624 l -16.256,-34.701137 -3.7084,-0.12299 -16.2559998,34.824127 h 3.9115998 l 4.2672,-9.4996 h 19.812 z m -24.0792,-9.4996 9.906,-22.148799 9.906,22.148799 z" />
+      <path
+         sodipodi:nodetypes="ssssccssssccs"
+         id="path839"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Montserrat;-inkscape-font-specification:Montserrat;fill:#000000;stroke-width:0.264583"
+         d="m 34.370598,54.947458 c 9.0932,0 13.258799,-4.4704 13.258799,-9.7028 0,-12.953999 -21.894799,-7.0612 -21.894799,-16.814799 0,-3.556 2.8956,-6.4516 9.398,-6.4516 3.1496,0 6.7056,0.9652 9.7536,2.9464 l 1.269999,-2.9972 c -2.844799,-1.9812 -7.010399,-3.1496 -11.023599,-3.1496 -9.0424,0 -12.907446,4.5212 -12.907446,9.7536 0,13.157199 21.695846,7.1628 21.695846,16.916399 0,3.5052 -2.8956,6.2992 -9.5504,6.2992 -4.6736,0 -9.1948,-1.8288 -11.7348,-4.318 l -1.4732,2.8956 c 2.6416,2.7432 7.874,4.6228 13.208,4.6228 z" />
+    </g>
+  </g>
+</svg>
