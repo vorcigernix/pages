@@ -8,7 +8,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 350px 1fr 10em 10em;
     gap: 1px;
-    grid-template-areas: "Picture" "Copy" "links-left" "links-right";
+    grid-template-areas: "Picture" "Copy" "links" "links";
   }
 
   .Copy {
@@ -27,29 +27,30 @@
     transform: translate(3em, -30%);
   }
 
-  .links-left {
-    grid-area: links-left;
+  .links {
+    grid-area: links;
   }
 
-  .links-right {
-    grid-area: links-right;
+  .links img {
+    padding-left: 2em;
   }
+
 
   @media (min-width: 800px) {
     .grid-container {
       display: grid;
       grid-template-columns: minmax(1em, 1fr) 2fr 1fr minmax(1em, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: 1fr 200px;
       align-items: center;
       justify-content: center;
       gap: 1em 1em;
-      grid-template-areas: ". Copy Picture ." ". links-left links-right .";
+      grid-template-areas: ". Copy Picture ." ". links links .";
     }
     .Picture {
       grid-area: Picture;
     }
     .Picture img {
-      transform: translate(0,0);
+      transform: translate(0, 0);
     }
   }
 </style>
@@ -75,6 +76,9 @@
   <div class="Picture">
     <img alt="My portrait" src="adam.jpg" />
   </div>
-  <div class="links-left" />
-  <div class="links-right" />
+  <div class="links">
+    <a href="https://github.com/vorcigernix">
+      <img alt="My Github Account" src="GitHub-Mark-32px.png" />
+    </a>
+  </div>
 </div>
