@@ -27,7 +27,7 @@
   }
 
   .Picture img {
-    transform: scale(1.3) translate(0, -20%);
+    transform: scale(0.8) translate(0, -20%);
     mix-blend-mode: multiply;
   }
 
