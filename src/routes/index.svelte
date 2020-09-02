@@ -35,7 +35,6 @@
     padding-left: 2em;
   }
 
-
   @media (min-width: 800px) {
     .grid-container {
       display: grid;
@@ -74,7 +73,11 @@
     <p>I have a passion for building things and coaching people.</p>
   </div>
   <div class="Picture">
-    <img alt="My portrait" src="adam.jpg" />
+    <picture>
+      <source type="image/webp" srcset="adam.webp" />
+      <source type="image/jpeg" srcset="adam.jpg" />
+      <img alt="My portrait" src="adam.jpg" />
+    </picture>
   </div>
   <div class="links">
     <a href="https://github.com/vorcigernix">
