@@ -69,7 +69,7 @@
     <p class="role">
       Director of Engineering
       <br />
-      <a href="https://sociabakers.com">@ Socialbakers</a>
+      <a href="https://socialbakers.com">@ Socialbakers</a>
     </p>
     <p>I have a passion for building things and coaching people.</p>
   </div>

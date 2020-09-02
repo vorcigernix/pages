@@ -27,18 +27,20 @@
 		all elements inside .content
 	*/
   .content {
-    margin: 2em;
-    font-size: 1.3em;
-    font-weight: 300;
+    width: 80vw;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 2em;
   }
 
   .content :global(a) {
-    font-weight: 500;
+    font-weight: 300;
   }
 
-  .content :global(h2) {
-    font-size: 1.4em;
-    font-weight: 500;
+  .content :global(h1) {
+    font-size: 1.5em;
+    font-weight: 800;
   }
 
   .content :global(pre) {
@@ -67,8 +69,7 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
-
 <div class="content">
+  <h1>{post.title}</h1>
   {@html post.html}
 </div>

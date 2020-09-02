@@ -12,6 +12,8 @@
   ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
   }
 
   /* clearfix */
@@ -23,23 +25,15 @@
 
   li {
     display: block;
-    float:left;
+    float: left;
   }
 
   [aria-current] {
     position: relative;
     display: inline-block;
+    color: rgb(184, 134, 11);;
   }
 
-  [aria-current]::after {
-    position: absolute;
-    content: "";
-    width: calc(100% - 1em);
-    height: 2px;
-    background-color: rgb(184, 134, 11);
-    display: block;
-    bottom: -1px;
-  }
 
   a {
     text-decoration: none;
@@ -48,9 +42,14 @@
     color: black;
     text-decoration: none;
     transition: all 0.3s;
+    font-weight: 500;
   }
   a:hover {
     opacity: 0.6;
+  }
+  img {
+    padding: 1em;
+    width: 1em;
   }
 </style>
 
@@ -61,6 +60,11 @@
         home
       </a>
     </li>
+    <picture>
+      <source type="image/webp" srcset="as.webp" />
+      <source type="image/jpeg" srcset="as.png" />
+      <img alt="navigation illustration" src="adam.png" />
+    </picture>
     <li>
       <a
         rel="prefetch"

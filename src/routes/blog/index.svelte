@@ -57,11 +57,9 @@
       border: 1px solid #666666;
       padding: 2em;
       transition: all 0.5s;
-      margin-left: 30px;
     }
 
     .cards > ul > li:hover {
-      margin: 0;
       border: 1px solid #fff;
       background-color: #fff;
     }
