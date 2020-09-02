@@ -22,7 +22,7 @@
   .Picture {
     grid-area: Picture;
     overflow: hidden;
-    background: linear-gradient(rgb(184, 134, 11), rgb(145, 152, 229));
+    background: linear-gradient(rgb(184, 134, 11), rgb(255, 255, 255));
     width: 90vw;
   }
 
