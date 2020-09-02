@@ -5,10 +5,11 @@
 <style>
   .grid-container {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 350px 1fr 10em 10em;
-    gap: 1px;
-    grid-template-areas: "Picture" "Copy" "links" "links";
+    grid-template-rows: 350px 1fr 10em;
+    gap: 1px 1px;
+    grid-template-areas: "Picture" "Copy" "links";
   }
 
   .Copy {
@@ -21,54 +22,63 @@
   .Picture {
     grid-area: Picture;
     overflow: hidden;
+    background: linear-gradient(rgb(184, 134, 11), rgb(145, 152, 229));
+    width: 90vw;
   }
 
   .Picture img {
-    transform: translate(3em, -30%);
+    translate: 50% -30%;
+    mix-blend-mode: multiply;
   }
 
   .links {
     grid-area: links;
+    align-self: center;
   }
 
-  .links img {
-    padding-left: 2em;
-  }
-
-  @media (min-width: 800px) {
+  @media (min-width: 1000px) {
     .grid-container {
       display: grid;
-      grid-template-columns: minmax(1em, 1fr) 2fr 1fr minmax(1em, 1fr);
+      justify-items: center;
+      grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr 200px;
-      align-items: center;
-      justify-content: center;
-      gap: 1em 1em;
-      grid-template-areas: ". Copy Picture ." ". links links .";
+      gap: 1px 1px;
+      grid-template-areas:
+        "Copy Picture"
+        "links links";
     }
+
+    .Copy {
+      grid-area: Copy;
+    }
+
     .Picture {
       grid-area: Picture;
+      background:rgb(255, 255, 255);
+      width: auto;
+    }
+
+    .links {
+      grid-area: links;
     }
     .Picture img {
-      transform: translate(0, 0);
+      translate: 0 0;
     }
   }
 </style>
 
 <svelte:head>
   <title>About</title>
-  <meta name="Description" content="Personal Blog of Adam Sobotka, Director of Engineering at Socialbakers">
+  <meta
+    name="Description"
+    content="Personal Blog of Adam Sobotka, Director of Engineering at Socialbakers" />
 </svelte:head>
 
 <div class="grid-container">
   <div class="Copy">
-    <h1>
-      Adam
-      <br />
-      Sobotka
-    </h1>
+    <h1>Adam <br /> Sobotka</h1>
     <p class="role">
-      Director of Engineering
-      <br />
+      Director of Engineering <br />
       <a href="https://socialbakers.com">@ Socialbakers</a>
     </p>
     <p>I have a passion for building things and coaching people.</p>
