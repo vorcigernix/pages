@@ -56,6 +56,7 @@
 
 <svelte:head>
   <title>About</title>
+  <meta name="Description" content="Personal Blog of Adam Sobotka, Director of Engineering at Socialbakers">
 </svelte:head>
 
 <div class="grid-container">

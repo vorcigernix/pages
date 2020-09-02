@@ -73,6 +73,7 @@
 
 <svelte:head>
   <title>Blog</title>
+  <meta name="Description" content="Personal Blog of Adam Sobotka - Blog posts">
 </svelte:head>
 
 <section class="cards" id="cards">
