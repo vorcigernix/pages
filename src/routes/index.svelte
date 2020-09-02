@@ -7,7 +7,7 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 350px 1fr 10em;
+    grid-template-rows: 400px 1fr 10em;
     gap: 1px 1px;
     grid-template-areas: "Picture" "Copy" "links";
   }
@@ -27,7 +27,7 @@
   }
 
   .Picture img {
-    translate: 50% -30%;
+    transform: scale(1.3) translate(0, -20%);
     mix-blend-mode: multiply;
   }
 
