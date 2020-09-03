@@ -28,7 +28,7 @@
 
   .Picture img {
     transform: scale(0.8) translate(0, -20%);
-    mix-blend-mode: multiply;
+    mix-blend-mode:screen;
   }
 
   .links {
