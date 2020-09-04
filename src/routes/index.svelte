@@ -23,7 +23,7 @@
     grid-area: Picture;
     overflow: hidden;
     background: linear-gradient(rgb(184, 134, 11), rgb(145, 152, 229));
-    width: 90vw;
+    width: 100vw;
   }
 
   .Picture img {
@@ -56,6 +56,7 @@
       grid-area: Picture;
       background:rgb(255, 255, 255);
       width: auto;
+      mix-blend-mode: normal;
     }
 
     .links {
