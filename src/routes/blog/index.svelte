@@ -54,13 +54,13 @@
 
     .cards > ul > li {
       list-style: none;
-      border: 1px solid #666666;
+      border: 1px solid #fff;
       padding: 2em;
       transition: all 0.5s;
     }
 
     .cards > ul > li:hover {
-      border: 1px solid #fff;
+      border: 1px solid rgba(184, 135, 11, 0.5);
       background-color: #fff;
     }
     .cards > ul > li:hover a {
