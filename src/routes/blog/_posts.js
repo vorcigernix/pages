@@ -29,7 +29,7 @@ const posts = [
   },
   {
     title: "Socialbakers",
-    subtitle: "Socialbakers part of my life.",
+    subtitle: "Socialbakers (and 2Fresh) part of my life.",
     slug: "sbks-story",
     html: `<p>I came to Socialbakers with a clear mission: I wanted to be The Scrum Master. The servant leader, helping people around, facilitating the important discussions and guiding people towards better teamwork. It was a great time, I was working with super smart people, they usually understood what I am saying, were open to trying things and company management was listening to our points. Honestly, I envy my past self. From the team level perspective, things are easy.&nbsp;</p>
 	<p>I guess I was successful in the job, as I received more teams to serve, I was representing the company by speaking about Agile development on several occasions. I cherish my memories from this time and even though I understand how human memory works, I still consider this as one of best work experiences I ever had.&nbsp;</p>
