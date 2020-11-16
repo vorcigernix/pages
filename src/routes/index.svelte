@@ -85,7 +85,8 @@
       Director of Engineering <br />
       <a href="https://socialbakers.com">@ Socialbakers</a>
     </p>
-    <p>I have a passion for building things and coaching people.</p>
+    <p>Leadership is not about being the best. Leadership is about making everyone else better.</p>
+    <p>I have a passion for building things, coaching people and blockchain.</p>
   </div>
   <div class="Picture">
     <picture>
